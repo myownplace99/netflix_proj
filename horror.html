@@ -3,10 +3,37 @@
     <head>
          <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Netflix Home Page</title>
+        <title>Horror Page</title>
   <link rel="stylesheet" href="netflix.css">
+  <style>
+    h1 {
+      color: white;
+      align-items: right;
+    }
+    
+      #search {
+        padding:5px;
+        background-color: black;
+        border-color: red;
+        color: red;
+
+      }
+      
+    .main {
+      display: flex;
+    }
+  </style>
 </head>
 <body>
+  <div class="main">
+  <div class="container">
+   <h1>horror</h1>
+   <form>
+    <label for="search"></label>
+    <input type="text" id="search" name="search" value="">Begin typing to find a show...
+  </form>
+  </div>
+ 
    <div class="sidebar">
     <div class="item1"><a href="Really Testing.html"><img src="netflixicon.png" alt="Netflix"></a></div>
     <div class="item2"><a href="NetflixHome.html"><img src="Nhome.png" alt="Home"></a></div>
@@ -14,6 +41,16 @@
     <div class="item3"><a href="NetflixMovies.html"><img src="Movies.png" alt="Movies"></a></div>
     <div class="item4"><a href="NetflixSettings.html"><img src="Settings.png" alt="Settings"></a></div>
   </div>
-  <h1 class="topresults">Netflix TV Page</h1>
+
+   <div class="horror">
+
+    <p>Trending</p>
+    <img src="trendinghorror.jpg">
+    <p>Movies</p>
+    <img src="horrorpics.png" >
+    <p>Shows</p>
+    <img src="horrorpics2.png">
+   </div>
+   </div>
  </body> 
 </html>

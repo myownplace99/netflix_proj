@@ -1,91 +1,66 @@
-            .topresults {
-                font-size: 18px;
-                color: darkgray;
-                margin-left: 150px;
-            }
-            div.toprow {
-                width: 100%;
-                overflow:auto;
-                margin-left: 30px;
-                margin-bottom: 15px;
-            }
-            div.toprow div {
-                width: 20%;
-                float: left;
-            }
-            div.bottomrow {
-                width: 100%;
-                overflow: auto;
-                margin-left: 30px;
-                margin-top: 15px;
-            }
-            div.bottomrow div {
-                width: 20%;
-                float: left;
-            }
-            .search-container {
-                text-align: center;
-                margin-bottom: 30px;
-            }
-            .search-container {
-                display: flex;
-                justify-content: center; 
-                align-items: center;     
-                gap: 10px;               
-                margin-bottom: 30px;
-                margin-top: 25px;
-            }
-            .search-container img.search {
-                width: 25px;   
-                height: 25px;
-                cursor: pointer;
-            }
-            input[type="text"] {
-                width: 300px;
-                padding: 10px;
-                font-size: 16px;
+            /* MAIN */
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: rgb(17, 14, 14);
             }
             button {
                 padding: 10px 15px;
                 font-size: 16px;
                 cursor: pointer;
             }
-            .highlight {
-                background-color: yellow;
-            }
-            body {
-                margin: 0;
-                font-family: Arial, sans-serif;
-                background-color: black;
-            }
-             /* Sidebar container */
-            .sidebar {
-                position: fixed;       
-                top: 0;
-                left: 0;
-                height: 100vh;   
-                width: 80px;
-                background-color: dimgray;
-                display: flex;
+            /* SIDEBAR */
+            .sidebar {       
+                display:inline-block;
+                top: 0px;
+                left: 0px;
+                height: 800px;   
+                width: 60px;
+                background-color: rgb(56, 52, 52);
+                display:flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: flex-start;
-                padding-top: 20px;
-            }
-
-            /* Icon links */
-            .sidebar a {
-                text-decoration: none;
-                color: white;
-                padding: 20px 0;
-                font-size: 24px;
-                transition: background 0.3s, transform 0.3s;
-            }
-            .sidebar a:hover {
-                transform: scale(1.1);
+                padding-top: 30px;
             }
             .sidebar img {
                 width: 20px;
                 height: 20px;
                 object-fit: contain;
             }
+            /* SEARCH PAGE */
+            .topresults {
+                 text-align:center;
+                font-size: 15px;
+                color: gray;
+                margin-left: 100px;
+            }
+            .keyboard {
+                text-align:center;
+                font-size: 10px;
+                color: gray;
+                margin-left: 100px;
+            }
+            .search_cont {
+                margin-left: 100px;
+                margin-top: 50px;
+            }
+            .searchicon {
+                width: 20px;
+                height: 20px;
+            }
+            .img_row_1 {
+                display: flex;
+                gap: 10px;
+                margin-left: 100px;
+                margin-top: 20px;
+            }
+            .img_row_2 {
+                display: flex;
+                gap: 10px;
+                margin-left: 100px;
+                margin-top: 20px;
+            }
+            .search_body {
+               display:inline-block;
+            }
+
