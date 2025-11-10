@@ -6,13 +6,8 @@
         <title>Horror Page</title>
   <link rel="stylesheet" href="netflix.css">
   <style>
-    h1 {
-      color: white;
-      align-items: right;
-    }
-    
       #search {
-        padding:5px;
+        padding: 10px;
         background-color: black;
         border-color: red;
         color: red;
@@ -21,6 +16,8 @@
       
     .main {
       display: flex;
+      flex: 1;
+      justify-content: center;
     }
 
     h2 {
@@ -39,17 +36,13 @@
       display: flex;
       gap: 10px;
     }
-
-    main {
-      flex: 1;
-    }
-
     .container {
       display: flex;
     }
 
     h1 {
       color: red;
+      padding-left: 300px;
     }
 
    
@@ -58,6 +51,7 @@
 </head>
 <body>
    <div class="container">
+
    <div class="sidebar">
     <div class="item1"><a href="Really Testing.html"><img src="netflixicon.png" alt="Netflix"></a></div>
     <div class="item2"><a href="NetflixHome.html"><img src="Nhome.png" alt="Home"></a></div>
@@ -66,37 +60,41 @@
     <div class="item4"><a href="NetflixSettings.html"><img src="Settings.png" alt="Settings"></a></div>
   </div>
 
-  
-  
     <main>
-      <h1>Horror</h1>
       <form>
     <label for="search"></label>
     <input type="text" id="search" name="search" value="" placeholder="Search">
   </form>
     <h2>Trending</h2>
 <div class="Trending">
+    <img src="leftarrow.png">
     <img src="horrorfeature1.png">
     <img src="horrorfeature2.png">
     <img src="horrorfeature3.png">
     <img src="horrorfeature4.png">
     <img src="horrorfeature5.png">
+    <img src="rightarrow.png">
     </div>
+    <h1>Horror</h1>
     <h2>Movies</h2>
     <div class ="Movies">
+    <img src="leftarrow.png">
     <img src="horrormovie1.png">
     <img src="horrormovie2.png">
     <img src="horrormovie3.png">
     <img src="horrormovie4.png">
     <img src="horrormovie5.png">
+    <img src="rightarrow.png">
     </div>
     <h2>Shows</h2>
     <div class="Shows">
+    <img src="leftarrow.png">
     <img src="horrorshow1.png">
     <img src="horrorshow2.png">
     <img src="horrorshow3.png">
     <img src="horroshow4.png">
     <img src="horrorshow5.png">
+    <img src="rightarrow.png">
     </div>
     </main>
    </div>
